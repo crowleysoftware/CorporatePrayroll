@@ -4,7 +4,7 @@ using Moq;
 namespace CorporatePrayroll.Tests.unit
 {
     [TestClass]
-    public class DeductionTestsByServiceMock
+    public class DeductionTestsByMockExtensions
     {
         [TestMethod]
         public async Task CanGetCorrectDeductionWhenLatestIsNotInEffect()
