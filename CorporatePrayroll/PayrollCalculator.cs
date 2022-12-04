@@ -26,7 +26,6 @@ namespace CorporatePrayroll
         //business methods and brings all the data together into a list of paychecks.
         public async Task<List<Paycheck>> CalculatePayroll(DateTime payrollDate)
         {
-            IPayrollRepository prayrollRepository = new PrayrollRepository();
             List<Paycheck> paychecks = new List<Paycheck>();
 
             //get all employees
